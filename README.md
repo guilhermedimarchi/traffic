@@ -1,5 +1,7 @@
 # Traffic
 
+The dataset for this example can be downloaded [here](https://cdn.cs50.net/ai/2020/x/projects/5/gtsrb.zip).
+
 In order to find an acceptable accuracy it was tested changing the model configuration, like the number of layers, filters and activation functions.
 Started with simple configuration having 1 convolutional layer with 16 filters 3x3, 1 pooling layer 2x2 and hidden layer with 64 neurons.
 From there it was changed one variable at the time, running at least 3x times each and averaging the accuracy.
